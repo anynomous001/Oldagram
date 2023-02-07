@@ -1,0 +1,83 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    width: 130px;
+    height: 59px;
+}
+
+.user-logo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgba(198, 198, 198, 1);
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.container-3 {
+    line-height: 2;
+    padding: 15px 0 20px 20px;
+}
+
+#post-ducreux,
+#post-courbet,
+#post-vangogh {
+    width: 100%;
+}
+
+.icon {
+    margin: 5px;
+    Width: 45.3px;
+    Height: 45.13px;
+}
+
+/*Typography*/
+h3,
+p {
+    margin: 0;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 19px;
+}
+
+p {
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#vangogh-likes,
+#courbet-likes,
+#ducreux-likes {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.caption-vangogh,
+.caption-courbet,
+.caption-ducreux {
+    margin: 5px;
+}
+
+span {
+    font-weight: 900;
+}
