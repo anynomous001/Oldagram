@@ -15,7 +15,7 @@ body {
     width: 60px;
     height: 60px;
     margin: 10px;
-    border-radius:4.6px;
+    
 }
 
 .container-1 {
@@ -40,6 +40,7 @@ body {
 #post-courbet,
 #post-vangogh {
     width: 100%;
+    border-radius:4.0px;
 }
 
 .icon {
